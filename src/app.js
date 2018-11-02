@@ -1,13 +1,13 @@
 'use strict'
 import React, { Component } from 'react'
-import Button from './button'
+import LikeButton from './likeButton'
+import SearchButton from './searchButton'
 class App extends Component {
   render () {
     return (
       <div className='container' >
-        <Button>
-          <span>Texto</span>
-        </Button>
+        <LikeButton />
+        <SearchButton />
       </div>
     )
   }
