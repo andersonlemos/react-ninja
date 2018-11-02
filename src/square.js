@@ -14,4 +14,5 @@ const Square = ({ color }) => (
 Square.defaultProps = {
   color: 'red'
 }
+
 export default Square
