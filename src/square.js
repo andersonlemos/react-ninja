@@ -7,6 +7,8 @@ const Square = ({ color }) => (
     background: color,
     width: '100px',
     height: '100px'
+  }} onClick={(e) => {
+    alert('alert ' + color)
   }} />
 )
 Square.defaultProps = {
